@@ -1,9 +1,9 @@
-# 🧠 RFM Customer Segmentation
+# RFM Customer Segmentation
 **End-to-end customer segmentation pipeline using BigQuery SQL + Power BI**
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project applies **RFM (Recency, Frequency, Monetary)** analysis to a full year of sales transaction data to segment customers into actionable behavioral groups. The pipeline runs entirely in **Google BigQuery** using layered SQL views, and results are visualized in an interactive **Power BI** dashboard.
 
@@ -14,7 +14,7 @@ RFM is a proven marketing analytics framework that scores customers based on:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |---|---|
@@ -44,7 +44,7 @@ RFM-customer-segmentation/
 
 ---
 
-## 📸 Dashboard Preview
+##  Dashboard Preview
 
 <!-- SCREENSHOT 1: Take a full screenshot of your Power BI dashboard (the whole page showing all visuals) -->
 ![Dashboard Overview](images/dashboard_overview.png)
@@ -183,7 +183,7 @@ ORDER BY rfm_total_score DESC;
 
 ---
 
-## 🗃️ BigQuery Setup
+## BigQuery Setup
 
 <!-- SCREENSHOT 2: Take a screenshot of your BigQuery left sidebar showing the 'sales' dataset expanded with all tables and views visible -->
 ![BigQuery Schema](images/bigquery_schema.png)
@@ -232,19 +232,11 @@ total_monetary = SUM(Query1[monetary])
 
 ---
 
-## 🚀 How to Reproduce
-
-1. Load monthly CSV files into BigQuery as separate tables (`202501`–`202512`)
-2. Run `sql/rfm_pipeline.sql` in BigQuery in sequence
-3. Open `powerbi/RFM_ANALYSIS.pbix` in Power BI Desktop
-4. Update the BigQuery connection to point to your project
-5. Refresh the data model
-
 ---
 
-## 👤 Author
+## Author
 
-**Mulisa Matshinge**
+**Tshisikhawe Mulisa Matshinge**
 - GitHub: [@MulisaMatshinge](https://github.com/MulisaMatshinge)
 
 ---
