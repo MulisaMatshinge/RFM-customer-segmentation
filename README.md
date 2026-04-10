@@ -241,4 +241,3 @@ total_monetary = SUM(Query1[monetary])
 
 ---
 
-*Built with Google BigQuery & Power BI*
